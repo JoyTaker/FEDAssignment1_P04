@@ -1,11 +1,5 @@
 
-body, html
-{
-  margin: 0;
-  padding: 0;
-  background: #FFF4F4;
-}
-
+/* Font/head Contents */
 
 .jersey-10-regular_css {
   font-family: "Jersey 10", serif;
@@ -17,12 +11,54 @@ body, html
   font-family: "Rubik Doodle Shadow", system-ui;
   font-weight: 400;
   font-style: normal;
+  font-size: 45px;
+}
+
+.alumni-sans-collegiate-one-regular_css {
+  font-family: "Alumni Sans Collegiate One", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.akshar_css {
+  font-family: "Akshar", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.alatsi-regular_css {
+  font-family: "Alatsi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carlito-regular_css {
+  font-family: "Carlito", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Body content */
+
+body, html
+{
+  margin: 0;
+  padding: 0;
+  background: #FFF4F4;
+}
+
+
+.MenuCaption_css
+{
+  font-size: 45px;
 }
 
   .Title_css
   {
     margin: 0;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     color: orange;
     text-shadow:
@@ -43,13 +79,71 @@ body, html
 .caption_css div
 {
   display: inline-flex;
-  margin-left: 19.5%;
+  margin-left: 19vw;
   color: white;
   font-size: 25px;
   padding-bottom: 2vh;
 }
 
-.order_css
+.menu-container_css
 {
-
+  margin-top: 5vh;
+  margin-left: 2.5vw;
+  background-color: rgb(250, 171, 171);
+  width: 40vw;
+  height: 65vh;
+  padding-left: 2vw;
+  padding-top: 5vh;
+  border-radius: 50px;
 }
+
+.Order-button_css
+{
+  height: 12vh;
+  width: 23vw;
+  border-radius: 90px;
+  background-color: #FF5A5A;
+  color: rgb(234, 230, 230);
+  font-size: 45px;
+  border: 1px solid black;
+  -webkit-text-stroke: 1px rgba(1, 0, 0, 0.623);
+  margin-top: 3vh;
+}
+
+.Order-button_css:hover
+{
+  cursor: pointer;
+}
+
+.View-cart_css
+{
+  color: white;
+  background-color: black;
+  margin-left: 5vw;
+  height: vh;
+  width: 13vw;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.View-cart_css:hover
+{
+  cursor: pointer;
+}
+
+.delivery_css
+{
+  background: #e88f09;
+  height: 12vh;
+  width: 33vw;
+  color: white;
+  position: relative;
+  top: .5vw;
+  right: 2vw;
+  padding-left: 9vw;
+  padding-top: 3vh;
+  font-size: 25px;
+  word-spacing: 2px;
+}
+
+
