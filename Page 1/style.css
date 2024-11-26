@@ -111,7 +111,7 @@ body, html
   background-color: #FF5A5A;
   color: rgb(234, 230, 230);
   font-size: 45px;
-  border: 1px solid black;
+  border: 1px solid rgb(240, 140, 140);
   margin-top: 3vh;
   -webkit-text-stroke: 1px rgba(1, 0, 0, 0.623);
 }
@@ -119,6 +119,7 @@ body, html
 .Order-button_css:hover
 {
   cursor: pointer;
+  color: #777870;
 }
 
 .View-cart_css
@@ -135,6 +136,7 @@ body, html
 .View-cart_css:hover
 {
   cursor: pointer;
+  color: #777870;
 }
 
 .delivery_css
@@ -155,6 +157,17 @@ body, html
 
 
 /* Promotional container */
+
+#container button
+{
+  background-color: #FFF4F4;
+  border: none;
+}
+
+#container button:hover
+{
+  cursor: pointer;
+}
 
 .food-promo-container_css
 { 
@@ -214,12 +227,13 @@ body, html
 
 .promo-container_css li input
 {
-  width: 23.5vw;
+  width: 23vw;
   height: 7vh;
   border-radius: 4px;
   border: 1px solid rgb(121, 120, 120);
   margin-top: 14px;
   font-size: 20px;
+  padding-left: 10px;
 }
 .promo-container_css li input::placeholder
 {
@@ -227,4 +241,20 @@ body, html
   color: #847f7f;
 }
 
-
+.promo-container_css li button
+{
+  position: relative;
+  left: .5vw;
+  top: .5vh;
+  width: 6vw;
+  height: 5.5vh;
+  font-size: 15px;
+  color: white;
+  background-color: #000;
+  border: 1px solid black;
+}
+.promo-container_css li button:hover
+{
+  cursor: pointer;
+  color: #777870;
+}
