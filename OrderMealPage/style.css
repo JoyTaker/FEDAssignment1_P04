@@ -1,0 +1,98 @@
+
+/* Font/head Contents */
+
+.jersey-10-regular_css {
+  font-family: "Jersey 10", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-doodle-shadow-regular_css {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+
+.alumni-sans-collegiate-one-regular_css {
+  font-family: "Alumni Sans Collegiate One", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.akshar_css {
+  font-family: "Akshar", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.alatsi-regular_css {
+  font-family: "Alatsi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carlito-regular_css {
+  font-family: "Carlito", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gasoek-one-regular_css {
+  font-family: "Gasoek One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Body content CLASS */
+body, html
+{
+  margin: 0;
+  padding: 0;
+  background: #FFF4F4;
+}
+
+
+.MenuCaption_css
+{
+  font-size: 45px;
+}
+
+  .Title_css
+  {
+    margin: 0;
+    font-size: 70px;
+    text-align: center;
+    color: orange;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    background-color: red;    
+    border: 1px solid red;
+    padding: 5px;
+  }
+
+.caption_css
+{
+  background-color: red;
+}
+
+.caption_css a
+{
+  display: inline-flex;
+  margin-left: 21.5vw;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 2vh;
+  text-decoration: none;
+}
+.caption_css a:hover
+{
+  cursor: pointer;
+  color: #7f7a7a;
+}
