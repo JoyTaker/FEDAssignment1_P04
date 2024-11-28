@@ -1,4 +1,5 @@
 
 document.getElementById("orderID").addEventListener("click", function(){
-    window.location.href = "../OrderMealPage/"
+    window.location.href = "../Order Meal Page/index.html";
 });
+

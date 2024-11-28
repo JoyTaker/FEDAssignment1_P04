@@ -20,6 +20,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Alata&family=Jersey+10&family=Rubik+Doodle+Shadow&family=Tilt+Warp&display=swap" rel="stylesheet">
+
+        <!-- Akshar -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Akshar:wght@300..700&family=Alata&family=Jersey+10&family=Rubik+Doodle+Shadow&family=Tilt+Warp&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -29,7 +34,7 @@
             <h2 class="Title_css jersey-10-regular_css">Budget Burgerz</h2>
 
             <div class="caption_css jersey-10-regular_css">
-                <a href="" target="_self">Home</a>
+                <a href="" target="_self" id="homeID">Home</a>
                 <a href="" target="_self">Offers</a>
                 <a href="" target="_self">Contact us</a>
             </div>
@@ -39,7 +44,7 @@
 
 
         <section>
-            <button type="button" id="budget-burgers_css" style="background-color: #FFF4F4;">
+            <button type="button" id="budget-burgers_css" >
                 <img src="exploding_burger.jpg" width="400"></img>
                 <div class="budget-burgers-captions_css">
                     <div class="tilt-warp_css">
@@ -48,21 +53,64 @@
                     </div>
 
                     <span id="png">
-                    <img src="chicken.png" alt="chicken image" width="40">
-                    <img src="fish.png" alt="fish image" width="40">
-                    <img src="cow.png" alt="cow image" width="40">
+                    <img src="chicken.png" alt="chicken image" width="40"height="50">
+                    <img src="fish.png" alt="fish image" width="40"height="50">
+                    <img src="cow.png" alt="cow image" width="40"height="50">
                     <img src="pig.png" alt="pig image" width="40" height="50">
-                    </span>
-
-
-                </div>
-            
-
+                    <span><hr style="height: 3.45rem; margin-top: 1.3rem; margin-left: 3px;"></span>
+                    <ul class="tilt-warp_css">
+                        <li style="text-align: left;">Fish</li>
+                        <li>Chicken</li>
+                    </ul>
+                    <ul class="tilt-warp_css">
+                        <li>Beef</li>
+                        <li>Pork</li>
+                    </ul>
                 </div>
             </button>
+
+
+            <button type="button" id="set-meals_css">
+                <img src="SetMeal.png" width="400" height="230"></img>
+                <div class="budget-burgers-captions_css">
+                    <div class="tilt-warp_css">
+                        Budget Burgers        
+                        <hr style="width: 25rem;">
+                    </div>
+
+                    <span id="png">
+                    <img src="chicken.png" alt="chicken image" width="40"height="50">
+                    <img src="fish.png" alt="fish image" width="40"height="50">
+                    <img src="cow.png" alt="cow image" width="40"height="50">
+                    <img src="pig.png" alt="pig image" width="40" height="50">
+                    <span><hr style="height: 3.45rem; margin-top: 1.3rem; margin-left: 3px;"></span>
+                    <ul class="tilt-warp_css">
+                        <li style="text-align: left;">Fish</li>
+                        <li>Chicken</li>
+                    </ul>
+                    <ul class="tilt-warp_css">
+                        <li>Beef</li>
+                        <li>Pork</li>
+                    </ul>
+                </div>
+            </button>
+
+            <hr style="margin-top: 5rem;">
+
+            <button class="view-cart_css">
+                <img src="cart.png" height="50">
+                <span class="akshar_css">View Cart</span>
+            </button>
+
+
+            <button class="track-order_css">
+                <img src="truck.png" height="50">
+                <span class="akshar_css">Track Order</span>
+            </button>
+
         </section>
 
-
+        <script src="script.js"></script>
 
     </body>
 
