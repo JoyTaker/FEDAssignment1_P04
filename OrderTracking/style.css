@@ -7,12 +7,23 @@
     font-style: normal;
   }
 
-  .ropa-sans-regular {
+  .ropa-sans-regula_css {
     font-family: "Ropa Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   
+
+.tilt-warp_css{
+  font-family: "Tilt Warp", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+
 
   /* Body HTML */
 body, html
@@ -81,3 +92,75 @@ body, html
     color: #7f7a7a;
   }
   
+
+
+.order-tracking_css img
+{
+  border-radius: 100px;
+  margin-left: 25%;
+  margin-top: 3vw;
+  border: 1px solid black;
+}
+
+  .vertice_css
+  {
+    border: 1px solid black;
+    width: 100px;
+    position: relative;
+    left:32.8vw;
+    bottom: 8vh;
+  }
+
+  .right-arrow_css {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+   padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: relative;
+    bottom:3.8rem;
+    left: 32rem;
+    z-index: 1;
+  }
+  
+  #ship
+  {
+    border: 1px solid   black;
+    border-radius: 150px;
+    position: relative;
+    left: 32.6em;
+    bottom: 7.5em;
+    z-index: 2;
+  }
+
+  #noYet
+  {
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-left: 50%;
+    position: relative;
+    bottom: 35.5vh;
+    left:7.5vw;
+  }
+
+.order_css
+{
+  border: 1px solid goldenrod;
+  display: flex;
+  background-color: goldenrod;
+  width: 10%;
+  height: 3em;
+  border-radius: 20px;
+  position: relative;
+  bottom: 13em;
+  left: 34em;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-status_css{
+  position: relative;
+  left: 50%;
+}
