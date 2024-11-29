@@ -85,7 +85,7 @@ body, html
   background-color: #59CC07;  
   height: 25%;
   margin: 0;
-  height: 50vh; 
+  height: 45vh; 
   display: flex;
   justify-content: space-evenly;
 }
@@ -122,4 +122,40 @@ body, html
 {
   font-size: 20px;  
   color: #334037;
+}
+
+.button-text_css 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button-text_css h2
+{
+  color: #736E6E;  
+  font-size: 20px;
+  position: absolute;
+}
+
+.report-button_css
+{
+  position: absolute;
+  background-color: #F26E6E;
+  color: white;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 8vh;
+}
+.improve-button_css
+{
+  position: absolute;
+  background-color: #38FC4C;
+  color: white;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-top: 23vh;
 }
