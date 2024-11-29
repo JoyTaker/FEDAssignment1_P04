@@ -149,14 +149,8 @@
     font-size: 1.8vw;
     border-radius: 20px;
     border: 1px solid black;
-    transition: transform 0.2s;
   }
-  .View-cart_css:hover
-  {
-    cursor: pointer;
-    color: #777870;
-    transform: scale(1.05); 
-  }
+  
 
   .delivery_css
   {

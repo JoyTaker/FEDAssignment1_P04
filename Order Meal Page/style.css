@@ -199,12 +199,6 @@ body, html
   background-color: #FFF4F4;
   border: none;
   margin-left: 30%;
-  transition: transform 0.2s; 
-}
-.view-cart_css:hover
-{
-  cursor: pointer;
-  transform: scale(1.05); 
 }
 .view-cart_css img
 {
