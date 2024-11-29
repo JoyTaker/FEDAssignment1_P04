@@ -10,3 +10,7 @@ document.getElementById("offersID").addEventListener("click", function(){
 document.getElementById("contactID").addEventListener("click", function(){
     window.location.href = "../ContactUsPage/index.html";
 });
+
+document.getElementById("gobackID").addEventListener("click", function(){
+    window.location.href = "../Order Meal Page/index.html";
+});
