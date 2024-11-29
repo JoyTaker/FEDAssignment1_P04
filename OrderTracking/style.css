@@ -185,14 +185,21 @@ body, html
   border-radius: 20px;
   position: relative;
   bottom: 13em;
-  left: 34em;
+  left: 45em;
   color: white;
   justify-content: center;
   align-items: center;
   position: relative;
+  transition: transform 0.2s;
   left: 35vw;
-
 }
+.request-refund_css:hover
+{
+  cursor:pointer;
+  color: grey;
+  transform: scale(1.05); 
+}
+
 
 .order-received_css{
   border: 1px solid goldenrod;
@@ -203,9 +210,16 @@ body, html
   border-radius: 20px;
   position: relative;
   bottom: 16em;
-  left: 40em;
+  left: 48em;
   color: white;
   justify-content: center;
   align-items: center;
-
+  transition: transform 0.2s;
 }
+.order-received_css:hover
+{
+  cursor: pointer;
+  color: grey;
+  transform: scale(1.05); 
+}
+

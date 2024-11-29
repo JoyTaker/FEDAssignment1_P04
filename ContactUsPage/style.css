@@ -1,0 +1,182 @@
+
+
+/* Fonts and styles */
+.jersey-10-regular_css {
+    font-family: "Jersey 10", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .jersey-25-regular_css {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .protest-strike-regular_css {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* Body content CLASS */
+body, html
+{
+  margin: 0;
+  padding: 0;
+  background: #FFF4F4;
+}
+
+.MenuCaption_css
+{
+  font-size: 45px;
+}
+
+  .Title_css
+  {
+    margin: 0;
+    font-size: 70px;
+    text-align: center;
+    color: orange;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    background-color: red;    
+    border: none;
+    padding: 5px;
+  }
+
+  .Title_css img{
+    margin-right: 20px; 
+    margin-bottom: -5px;
+    height: 50px;
+  }
+
+  .caption_css {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    padding-top: 10px;
+    background-color: #DB6262;
+    border: 1px solid rgb(6, 6, 6);
+  }
+
+  
+  .caption_css a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding-bottom: 2vh;
+    padding-left: 9vw;
+    margin-right: 8vw;
+  }
+  
+  .caption_css a:hover {
+    cursor: pointer;
+    color: #7f7a7a;
+  }
+
+/* 
+  .contact-info_css h1
+  {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .contact-info_css h1
+  {
+    margin: 0;
+    padding: 0;
+    height: 39vh;
+    font-size: 45px;
+    color: white;
+    background-color: #59CC07;
+    position: inherit;
+    z-index: 1;
+    padding-top: 20px;
+  }
+
+#whatsApp-icon_css{
+  border-radius: 120px;
+  position: relative;
+  bottom: 12rem;
+  left: 15rem;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 3;
+
+}
+
+#instagram-icon_css{
+  border-radius: 120px;
+  position: relative;
+  bottom: 12rem;
+  left: 32.5rem;
+  border: 1px solid rgb(255, 252, 252);
+  z-index: 3;
+}
+
+#tiktok-icon_css
+{
+  border-radius: 120px;
+  position: relative;
+  bottom: 12rem;
+  left: 50rem;
+  border: 1px solid rgb(247, 242, 242);
+  z-index: 3;
+} */
+/* 
+.contact-us-text_css
+{
+  text-align: center;
+  background-color: #59CC07;  
+  height: 25%;
+  margin: 0;
+  height: 50vh;
+} */
+
+.contact-info_css
+{
+  text-align: center;
+  background-color: #59CC07;  
+  height: 25%;
+  margin: 0;
+  height: 50vh; 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-info_css h1
+{
+  position: absolute;
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.contact-info_css img
+{
+  display: inherit;
+  margin-top: 5rem;
+  border-radius: 100px;
+  border: 1px solid white;
+}
+.contact-info_css div
+{
+  position: absolute;
+  margin-top: 12rem;
+  margin-right: 55%;
+  color: white;
+  font-size: 40px;
+}
+.contact-info_css div label
+{
+color: #334037;
+font-size: 20px;  
+}
+.instagram-text_css{
+  position: absolute;
+  margin-left: 55vw;
+}
+
