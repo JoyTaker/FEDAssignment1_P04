@@ -49,6 +49,8 @@ body, html
   width: 30%;
   margin-left: 33%;
   font-size: 25px;
+  top: 0 ;
+  z-index: 1;
 }
 
   .Title_css
@@ -76,12 +78,15 @@ body, html
   .caption_css {
     display: flex;
     justify-content: center;
-    gap: 40px; 
-    padding-top: 10px;
+    gap: 40px;
     background-color: #DB6262;
     border: 1px solid rgb(6, 6, 6);
+    position: sticky;
+    top: 0; 
+    z-index: 10; 
+    padding: 10px 0; 
+    z-index: 100;
   }
-
   
   .caption_css a {
     color: white;
@@ -129,7 +134,7 @@ body, html
     z-index: 1;
   }
   
-  #ship
+  #delivery_css
   {
     border: 1px solid   black;
     border-radius: 150px;
@@ -139,7 +144,7 @@ body, html
     z-index: 2;
   }
 
-  #noYet
+  #buffering_css
   {
     border-radius: 100px;
     border: 1px solid black;
@@ -238,3 +243,31 @@ body, html
   color: #DB6262;
 }
 
+@media screen and (max-width: 768px)
+{
+  .Title_css{
+    width: 200vw;
+    top: 0;
+    left: 0;
+  }
+  .caption_css{
+    width: 202.2vw;
+  }
+  .caption_css a{
+    position: relative;
+    left: 20px;
+  }
+
+  .Order-Track_css{
+    width: 100vw;
+    position: relative;
+    left: 20vw;
+  }
+
+  #delivery_css{
+    position: relative;
+    left: 70vw;
+
+  }
+
+} 
