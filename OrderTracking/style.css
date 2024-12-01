@@ -2,261 +2,280 @@
 /* Font */
 
 .jersey-10-regular_css {
-    font-family: "Jersey 10", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .ropa-sans-regula_css {
-    font-family: "Ropa Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .sintony-regular_css {
-    font-family: "Sintony", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-.tilt-warp_css{
-  font-family: "Tilt Warp", serif;
-  font-optical-sizing: auto;
+  font-family: "Jersey 10", serif;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "XROT" 0,
-    "YROT" 0;
+}
+
+.ropa-sans-regula_css {
+  font-family: "Ropa Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sintony-regular_css {
+  font-family: "Sintony", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tilt-warp_css{
+font-family: "Tilt Warp", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-variation-settings:
+  "XROT" 0,
+  "YROT" 0;
 }
 
 
-  /* Body HTML */
+/* Body HTML */
 body, html
 {
-  margin: 0;
-  padding: 0;
-  background: #FFF4F4;
+margin: 0;
+padding: 0;
+background: #FFF4F4;
 }
 
 
 .Order-Track_css
 {
-  background-color: #5C3434;
-  color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-  width: 30%;
-  margin-left: 33%;
-  font-size: 25px;
-  top: 0 ;
-  z-index: 1;
+background-color: #5C3434;
+color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
+width: 30%;
+margin-left: 33%;
+font-size: 25px;
+top: 0 ;
+z-index: 1;
 }
 
-  .Title_css
-  {
-    margin: 0;
-    font-size: 70px;
-    text-align: center;
-    color: orange;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
-    background-color: red;    
-    border: none;
-    padding: 5px;
-  }
+.Title_css
+{
+  margin: 0;
+  font-size: 70px;
+  text-align: center;
+  color: orange;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+  background-color: red;    
+  border: none;
+  padding: 5px;
+}
 
-  .Title_css img{
-    margin-right: 20px; 
-    margin-bottom: -5px;
-    height: 50px;
-  }
+.Title_css img{
+  margin-right: 20px; 
+  margin-bottom: -5px;
+  height: 50px;
+}
 
-  .caption_css {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    background-color: #DB6262;
-    border: 1px solid rgb(6, 6, 6);
-    position: sticky;
-    top: 0; 
-    z-index: 10; 
-    padding: 10px 0; 
-    z-index: 100;
-  }
-  
-  .caption_css a {
-    color: white;
-    font-size: 25px;
-    text-decoration: none;
-    padding-bottom: 2vh;
-    padding-left: 9vw;
-    margin-right: 8vw;
-  }
-  
-  .caption_css a:hover {
-    cursor: pointer;
-    color: #7f7a7a;
-  }
-  
+.caption_css {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #DB6262;
+  border: 1px solid rgb(6, 6, 6);
+  position: sticky;
+  top: 0; 
+  z-index: 10; 
+  padding: 10px 0; 
+  z-index: 100;
+}
+
+.caption_css a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  padding-bottom: 2vh;
+  padding-left: 9vw;
+  margin-right: 8vw;
+}
+
+.caption_css a:hover {
+  cursor: pointer;
+  color: #7f7a7a;
+}
+
 
 
 .order-tracking_css img
 {
-  border-radius: 100px;
-  margin-left: 25%;
-  margin-top: 3vw;
-  border: 1px solid black;
+border-radius: 100px;
+margin-left: 25%;
+margin-top: 3vw;
+border: 1px solid black;
+position: relative;
+left: .2em;
 }
 
-  .vertice_css
-  {
-    border: 1px solid black;
-    width: 100px;
-    position: relative;
-    left:32.8vw;
-    bottom: 8vh;
-  }
+.vertice_css
+{
+  border: 1px solid black;
+  width: 100px;
+  position: relative;
+  left:32.8vw;
+  bottom: 8vh;
+}
+.vertice1_css{
+  visibility: hidden  ;
+  border: 1px solid black;
+  width: 100px;
+  position: relative;
+  left:32.8vw;
+  bottom: 8vh;
+}
 
-  .right-arrow_css {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-   padding: 3px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    position: relative;
-    bottom:3.8rem;
-    left: 32rem;
-    z-index: 1;
-  }
-  
-  #delivery_css
-  {
-    border: 1px solid   black;
-    border-radius: 150px;
-    position: relative;
-    left: 32.6em;
-    bottom: 7.5em;
-    z-index: 2;
-  }
+.right-arrow_css {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+ padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: relative;
+  bottom:3.8rem;
+  left: 32rem;
+  z-index: 1;
+}
 
-  #buffering_css
-  {
-    border-radius: 100px;
-    border: 1px solid black;
-    margin-left: 50%;
-    position: relative;
-    bottom: 35.5vh;
-    left:7.5vw;
-  }
+#delivery_css
+{
+  border: 1px solid   black;
+  border-radius: 150px;
+  position: relative;
+  left: 29em;
+  bottom: 6.4em;
+  z-index: 2;
+}
+
+#buffering_css
+{
+  border-radius: 100px;
+  border: 1px solid black;
+  margin-left: 50%;
+  position: relative;
+  bottom: 35.5vh;
+  left:7.5vw;
+}
 
 .order_css
 {
-  border: 1px solid goldenrod;
-  display: flex;
-  background-color: goldenrod;
-  width: 10%;
-  height: 3em;
-  border-radius: 20px;
-  position: relative;
-  bottom: 13em;
-  left: 34em;
-  color: white;
-  justify-content: center;
-  align-items: center;
+border: 1px solid goldenrod;
+display: flex;
+background-color: goldenrod;
+width: 10%;
+height: 3em;
+border-radius: 20px;
+position: relative;
+bottom: 12em;
+left: 31.3em;
+color: white;
+justify-content: center;
+align-items: center;
 }
 
 .order-status_css {
-  position: relative;
-  bottom: 12rem;
-  right: 1rem;
+position: relative;
+bottom: 12rem;
+right: 1rem;
 }
 
 .order-status_css div h2, h3, h1, u{
-  text-align: center;
+text-align: center;
 }
 
 .request-refund_css
 {
-  border: 1px solid goldenrod;
-  display: flex;
-  background-color: #998F8F;
-  width: 10%;
-  height: 3em;
-  border-radius: 20px;
-  position: relative;
-  bottom: 13em;
-  left: 45em;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  transition: transform 0.2s;
-  left: 35vw;
+border: 1px solid goldenrod;
+display: flex;
+background-color: #998F8F;
+width: 10%;
+height: 3em;
+border-radius: 20px;
+position: relative;
+bottom: 13em;
+left: 45em;
+color: white;
+justify-content: center;
+align-items: center;
+position: relative;
+transition: transform 0.2s;
+left: 35vw;
 }
 .request-refund_css:hover
 {
-  cursor:pointer;
-  color: grey;
-  transform: scale(1.05); 
+cursor:pointer;
+color: grey;
+transform: scale(1.05); 
 }
 
 
 .order-received_css{
-  border: 1px solid goldenrod;
-  display: flex;
-  background-color: #D63434;
-  width: 10%;
-  height: 3em;
-  border-radius: 20px;
-  position: relative;
-  bottom: 16em;
-  left: 48em;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.2s;
+border: 1px solid goldenrod;
+display: flex;
+background-color: #D63434;
+width: 10%;
+height: 3em;
+border-radius: 20px;
+position: relative;
+bottom: 16em;
+left: 43em;
+color: white;
+justify-content: center;
+align-items: center;
+transition: transform 0.2s;
 }
 .order-received_css:hover
 {
-  cursor: pointer;
-  color: grey;
-  transform: scale(1.05); 
+cursor: pointer;
+color: grey;
+transform: scale(1.05); 
 }
 
 #gobackID
 {
-  position: relative;
-  bottom: 10rem;
-  left: 4rem;
-  transition: transform 0.5;
+position: relative;
+bottom: 10rem;
+left: 4rem;
+transition: transform 0.5;
 
 }
 #gobackID:hover
 {
-  transform: scale(1.5);
-  cursor: pointer;
-  color: #DB6262;
+transform: scale(1.5);
+cursor: pointer;
+color: #DB6262;
+}
+
+.vertice2_css{
+  border: 1px solid black;
+  width: 100px;
+  position: relative;
+  left:32.8vw;
+  bottom: 8vh;
+  visibility: hidden;
 }
 
 @media screen and (max-width: 768px)
 {
-  .Title_css{
-    width: 200vw;
-    top: 0;
-    left: 0;
-  }
-  .caption_css{
-    width: 202.2vw;
-  }
-  .caption_css a{
-    position: relative;
-    left: 20px;
-  }
+.Title_css{
+  width: 200vw;
+  top: 0;
+  left: 0;
+}
+.caption_css{
+  width: 202.2vw;
+}
+.caption_css a{
+  position: relative;
+  left: 20px;
+}
 
   .Order-Track_css{
     width: 100vw;
@@ -267,7 +286,36 @@ body, html
   #delivery_css{
     position: relative;
     left: 70vw;
-
   }
 
+  .order-tracking_css img{
+    position: relative;
+    left: 40px; 
+    z-index: 2;
+  }
+
+
+  #buffering_css{
+    position: relative;
+    top: -32.2vh;
+    left: 60vw;
+  }
+
+   .vertice_css{
+    visibility: hidden;
+   }
+
+  .vertice1_css{ /*for mobile*/
+    position: relative;
+    left: 50vw;
+    z-index: 0;
+    display: block;
+    visibility: visible;
+  }
+
+  .vertice2_css{ /*for mobile*/
+    visibility: visible;
+    top: -24vh;
+    left: 90vw;
+  }
 } 
