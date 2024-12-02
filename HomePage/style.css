@@ -194,14 +194,14 @@
 
   /* container */
   
-  .container{
+  #container{
     position: relative;
     top: -10vh;
     left: -5vw;
     display: grid;
   }
 
-  .container button {
+  #container button {
     background-color: #FFF4F4;
     border: none;
     display: flex; 
@@ -210,12 +210,12 @@
     transition: transform 0.2s; 
   }
 
-  .container button:hover {
+  #container button:hover {
     cursor: pointer;
     transform: scale(1.05); 
   }
 
-  .container button ul {
+  #container button ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -505,12 +505,12 @@
     color: #000;
   }
   
-  .container {
+  #container {
     display: grid;
     padding-left: 5%;
   }
 
-  .container button {
+  #container button {
     background-color: #fff4f4;
     border: none;
     position: relative;
@@ -521,7 +521,7 @@
     margin: 10px auto;
   }
 
-  .container button:hover {
+  #container button:hover {
     cursor: pointer;
     transform: scale(1.05);
   }
