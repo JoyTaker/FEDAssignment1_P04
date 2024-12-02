@@ -8,7 +8,7 @@ document.getElementById("orderID").addEventListener("click", function(){
     window.location.href = "../Order Meal Page/index.html";
 })
 
-function ApplyPromoCode(){
+applyButton.addEventListener("click", function(){
     const promoCode = promoInput.value.trim(); 
 
     if (promoCode === 'budgetBurgerz123') {
@@ -25,6 +25,6 @@ function ApplyPromoCode(){
            Please try again or check the code entered.</p>
         `;
     }
-}
+});
 
-applyButton.addEventListener("click", ApplyPromoCode);
+
