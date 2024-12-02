@@ -161,3 +161,49 @@ body, html
   font-size: 17px;
   margin-top: 23vh;
 }
+
+#instagramAcc{
+  font-size: 15px;
+}
+
+#tiktok{
+  font-size: 14.5px;
+}
+
+#phoneNumber{
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .Title_css img{
+    height: 30px;
+  }
+  .Title_css{
+    font-size: 40px;
+  }
+  .caption_css{
+    height: 40px;
+    
+  }
+  .caption_css a
+  {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contact-info_css{
+    height: 30vh;
+  }
+
+  .contact-info_css div{
+    font-size: 25px;
+    position: absolute;
+  }
+  
+
+  .button-text_css h2{
+    text-align: center;
+  }
+
+}

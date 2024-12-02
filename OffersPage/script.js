@@ -1,6 +1,5 @@
-
-document.getElementById("homeID").addEventListener("click", function(){
-    window.location.href = "../HomePage/index.html";
+document.getElementById("menuID").addEventListener("click", function(){
+    window.location.href = "../Order Meal Page/index.html";
 });
 
 document.getElementById("offersID").addEventListener("click", function(){

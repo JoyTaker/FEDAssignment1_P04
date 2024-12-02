@@ -176,3 +176,88 @@ section img
 {
   object-fit: contain;
 }
+
+
+
+@media only screen and (max-width: 768px)
+{
+  .Title_css{
+    width: 200vw;
+  }
+
+  .caption_css{
+    width: 202vw;
+  }
+
+  .exclusive-offer_css{
+    width: 70vw;
+    position: relative;
+    left: 30vw;
+  }
+  .set-a_css img{
+    width: 100vw;
+    height: 15vh;
+    position: relative;
+    left: 50vw;
+    bottom: -50px;
+  }
+  .name_css{
+    position: absolute;
+    width: 40vw;
+    left: 60vw;
+    margin-top: -13vh;
+  }
+  .pricing_css{
+    width: 25vw;
+    position:relative;
+    left: 50vw;
+    top:5.5vh;
+  }
+  .set-container1_css .set-a_css .cart_css{
+    left: 34vh;
+    width:35vw;
+    top: 45vh;
+    height: 4vh;
+  }
+
+  .set-b_css h2{
+    position: absolute;
+    z-index: 2;
+    width: 40vw;
+    left: 60vw;
+  } 
+
+  .set-b_css img
+  {
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    left: 23vh;
+    top: 59vh;
+    z-index: 1;
+  } 
+  .set-b_css .pricing_css{
+    position: relative;
+    left: 9.3vh;
+    top: 13vw;
+  }
+  #chickenburgerA{
+    visibility: hidden;
+  }
+  #chickenburgerApricing{
+    visibility: hidden;
+  }
+
+  .set-container2_css .set-b_css .cart_css{
+    position: absolute;
+    top: 75vh;
+    left: 70vw;
+    z-index: 2;
+  }
+
+  .set-container2_css .set-a_css .cart_css{
+    position: absolute;
+    left: 70vw;
+    top:100vh;
+  }  
+}

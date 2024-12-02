@@ -154,19 +154,19 @@ img {
   height: 0;
 }
 
-#png
+.png
 {
   display: inline-flex;
   position: relative;
   bottom: 3.3rem;
   flex: 1 1 20px;
 }
-#png img{
+.png img{
   margin-left: 5px;
   border-radius: 90px;
 }
 
-#png ul li
+.png ul li
 {
  font-size: 20px;
  margin-top: -13px;
@@ -266,6 +266,17 @@ img {
   border-radius: 30px;
   font-size: 4vh;
   color: white;
+}
+
+#gobackID{
+  position: absolute;
+  top: 89.8vh;
+  transition: translate 0.5s;
+}
+
+#gobackID:hover{
+  cursor: pointer;
+  transform: scale(1.5);
 }
 
 @media only screen and (max-width: 768px)
